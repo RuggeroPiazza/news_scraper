@@ -21,5 +21,6 @@ def parsing_google_news():
     google.writing_data(soup)
 
 
-parsing_bbc()
-parsing_google_news()
+if __name__ == "__main__":
+    parsing_bbc()
+    parsing_google_news()
